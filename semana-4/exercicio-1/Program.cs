@@ -1,8 +1,9 @@
 ﻿String escolha;
 decimal saldo=0;
 List<decimal> extrato = new List<decimal>();
-Console.WriteLine("Bem vindo a SCBANK");
 
+
+Console.WriteLine("Bem vindo a SCBANK");
 do
 {
     ExibirMenu();
