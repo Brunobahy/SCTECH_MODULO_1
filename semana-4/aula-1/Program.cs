@@ -47,38 +47,106 @@
 //     Console.WriteLine($"Nome {i+1}: {array[i]}");
 // }
 
+// Exercicio
+
 /// Crie um programa para calculo de média que pegunte quantas notas,
 /// obtenha os valores delas,  e  realize  o calculo e depois exiba a nota.
-int tamanho = 0;
-bool validaTm = false;
 
-Console.WriteLine("Bem vindo a calculadora de media");
-do
-{
-    Console.Write("Quantas notas devo calcular? ");
-    validaTm = int.TryParse(Console.ReadLine(),out tamanho);
-}while(!validaTm && tamanho <=0);
+// int tamanho = 0;
+// bool validaTm = false;
 
-float[] notas = new float[tamanho];
-float soma = 0; 
-for(int i = 0; i < tamanho; i++)
-{
-    bool validaNota = false;
-    float atual;
-    do{
-        Console.Write($"Digite a {i+1}° nota: ");
-        validaNota = float.TryParse(Console.ReadLine(),out atual);
-    }while(!validaNota);
+// Console.WriteLine("Bem vindo a calculadora de media");
+// do
+// {
+//     Console.Write("Quantas notas devo calcular? ");
+//     validaTm = int.TryParse(Console.ReadLine(),out tamanho);
+// }while(!validaTm && tamanho <=0);
 
-    notas[i]= atual;
-    soma += atual;
-}
-float media = soma/tamanho;
+// float[] notas = new float[tamanho];
+// float soma = 0; 
+// for(int i = 0; i < tamanho; i++)
+// {
+//     bool validaNota = false;
+//     float atual;
+//     do{
+//         Console.Write($"Digite a {i+1}° nota: ");
+//         validaNota = float.TryParse(Console.ReadLine(),out atual);
+//     }while(!validaNota);
 
-Console.WriteLine("");
-Console.WriteLine($"A media das {tamanho} notas é: {media}");
-Console.WriteLine("Notas fornecidas: ");
-for(int i = 0; i < tamanho; i++)
-{
-    Console.WriteLine($"{i+1}) {notas[i]}");
+//     notas[i]= atual;
+//     soma += atual;
+// }
+// float media = soma/tamanho;
+
+// Console.WriteLine("");
+// Console.WriteLine($"A media das {tamanho} notas é: {media}");
+// Console.WriteLine("Notas fornecidas: ");
+// for(int i = 0; i < tamanho; i++)
+// {
+//     Console.WriteLine($"{i+1}) {notas[i]}");
+// };
+
+// Listas
+
+
+// int tamanho = 0;
+// bool validaTm = false;
+
+// Console.WriteLine("Bem vindo a calculadora de media");
+// do
+// {
+//     Console.Write("Quantas notas devo calcular? ");
+//     validaTm = int.TryParse(Console.ReadLine(),out tamanho);
+// }while(!validaTm && tamanho <=0);
+
+// List<float> notas = new List<float>{};
+// float soma = 0; 
+// for(int i = 0; i < tamanho; i++)
+// {
+//     bool validaNota = false;
+//     float atual;
+//     do{
+//         Console.Write($"Digite a {i+1}° nota: ");
+//         validaNota = float.TryParse(Console.ReadLine(),out atual);
+//     }while(!validaNota);
+
+//     notas.Add(atual);
+//     soma += atual;
+// }
+// float media = soma/tamanho;
+
+// Console.WriteLine("");
+// Console.WriteLine($"A media das {tamanho} notas é: {media}");
+// Console.WriteLine("Notas fornecidas: ");
+// for(int i = 0; i < notas.Count; i++)
+// {
+//     Console.WriteLine($"{i+1}) {notas[i]}");
+// };
+
+
+// foreach(var nota in notas)
+// {
+//     Console.WriteLine(nota);
+// }
+
+
+
+List<string> nomes = new List<string>();
+string resposta;
+while(true){
+    Console.WriteLine("Digite um nome para adicionar a lista, ou (sair) para sair:");
+    resposta = Console.ReadLine();
+    if(resposta.ToLower() == "sair")
+    {
+        break;
+    }
+    nomes.Add(resposta);
 };
+
+Console.WriteLine("****************");
+Console.WriteLine($"Foram adicionados {nomes.Count} sendo eles:");
+foreach(var nome in nomes)
+{
+    Console.WriteLine("");
+    Console.WriteLine(nome);
+}
