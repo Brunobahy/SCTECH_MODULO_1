@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\SCTECH\semana-9\funções anonimas\bin\Debug\net10.0\funções anonimas.exe
+C:\Users\User\Desktop\SCTECH\semana-9\funções anonimas\bin\Debug\net10.0\funções anonimas.deps.json
+C:\Users\User\Desktop\SCTECH\semana-9\funções anonimas\bin\Debug\net10.0\funções anonimas.runtimeconfig.json
+C:\Users\User\Desktop\SCTECH\semana-9\funções anonimas\bin\Debug\net10.0\funções anonimas.dll
+C:\Users\User\Desktop\SCTECH\semana-9\funções anonimas\bin\Debug\net10.0\funções anonimas.pdb
+C:\Users\User\Desktop\SCTECH\semana-9\funções anonimas\obj\Debug\net10.0\funções anonimas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\SCTECH\semana-9\funções anonimas\obj\Debug\net10.0\funções anonimas.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\SCTECH\semana-9\funções anonimas\obj\Debug\net10.0\funções anonimas.AssemblyInfo.cs
+C:\Users\User\Desktop\SCTECH\semana-9\funções anonimas\obj\Debug\net10.0\funções anonimas.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\SCTECH\semana-9\funções anonimas\obj\Debug\net10.0\funções anonimas.sourcelink.json
+C:\Users\User\Desktop\SCTECH\semana-9\funções anonimas\obj\Debug\net10.0\funções anonimas.dll
+C:\Users\User\Desktop\SCTECH\semana-9\funções anonimas\obj\Debug\net10.0\refint\funções anonimas.dll
+C:\Users\User\Desktop\SCTECH\semana-9\funções anonimas\obj\Debug\net10.0\funções anonimas.pdb
+C:\Users\User\Desktop\SCTECH\semana-9\funções anonimas\obj\Debug\net10.0\funções anonimas.genruntimeconfig.cache
+C:\Users\User\Desktop\SCTECH\semana-9\funções anonimas\obj\Debug\net10.0\ref\funções anonimas.dll
